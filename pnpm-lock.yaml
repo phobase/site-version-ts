@@ -4,6 +4,7 @@ importers:
 
   packages/site-config-core:
     specifiers:
+      '@phobase/client-core': ^1.0.1
       '@rollup/plugin-typescript': ^8.3.1
       '@typescript-eslint/eslint-plugin': ^5.31.0
       '@typescript-eslint/parser': ^5.31.0
@@ -19,6 +20,7 @@ importers:
       rollup: ^2.77.2
       typescript: ^4.7.4
     devDependencies:
+      '@phobase/client-core': 1.0.1
       '@rollup/plugin-typescript': 8.3.4_oo3i3f3qmqiztdz5qgxrrjmd5e
       '@typescript-eslint/eslint-plugin': 5.31.0_d5zwcxr4bwkhmuo464cb3a2puu
       '@typescript-eslint/parser': 5.31.0_he2ccbldppg44uulnyq4rwocfa
@@ -87,6 +89,10 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: true
+
+  /@phobase/client-core/1.0.1:
+    resolution: {integrity: sha512-x4C480jUmh6tTTKt9ZVPyc5gMH0egjRGdybfZYiwa9U9kPnOlXx+AyCJzYx5uQ7npLVzKaMw7mHcWhUV1MrNsQ==}
     dev: true
 
   /@rollup/plugin-typescript/8.3.4_oo3i3f3qmqiztdz5qgxrrjmd5e:

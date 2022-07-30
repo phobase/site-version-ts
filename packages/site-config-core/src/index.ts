@@ -1,1 +1,2 @@
-export * from './siteConfig'
+export * from './functor';
+export * from './siteConfig';
