@@ -7,7 +7,10 @@
     "build": "pnpm clean && rollup -c",
     "clean": "rm -rf dist"
   },
-  "keywords": [],
+  "keywords": ["phobase"],
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@phobase/client-core": "^1.0.1",
     "@rollup/plugin-typescript": "^8.3.1",

@@ -1,3 +1,3 @@
 # site-config-core
 
-Core site config in typescript.
+Site config core in typescript.
