@@ -1,4 +1,4 @@
-export * from './SiteConfig';
+export * from './SiteVersion';
 export * from './Block';
 export * from './Page';
 export * from './Input';

@@ -1,12 +1,12 @@
-import { SiteConfig, View } from '../siteConfig';
+import { SiteVersion, View } from '../siteVersion';
 
 export const getView = (
-  siteConfig: SiteConfig,
+  siteVersion: SiteVersion,
   pageName: string,
   blockName: string,
   viewName: string,
 ): View | undefined => {
-  return siteConfig.pages
+  return siteVersion.pages
     .find(page => page.name === pageName)
     ?.blocks.find(block => block.name === blockName)
     ?.views.find(view => view.name === viewName);

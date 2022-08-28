@@ -1,5 +1,5 @@
 import { Page } from './Page';
 
-export type SiteConfig = {
+export type SiteVersion = {
   pages: Page[];
 };

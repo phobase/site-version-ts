@@ -1,2 +1,3 @@
-# site-config-ts
-Phobase site config in typescript.
+# site-version-ts
+
+Phobase site version in typescript.
